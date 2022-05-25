@@ -1,7 +1,7 @@
 # 
 Custom instagram Ui
 
-A custom instagram Ui created with flutter !
+A custom instagram Ui created with flutter !✌️
 
 ## Getting Started
 
