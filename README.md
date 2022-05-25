@@ -1,10 +1,16 @@
-# instagram_clone
+# 
+Custom instagram Ui
 
-A new Flutter project.
+A custom instagram Ui created with flutter !✌️
+
+![image](https://user-images.githubusercontent.com/86960501/170285579-1c2e3f7a-c694-4bd2-88f0-9db33634b25a.png)
+![image](https://user-images.githubusercontent.com/86960501/170285833-c7da2bb9-caa9-4754-80cd-8bab5f814168.png)
+![image](https://user-images.githubusercontent.com/86960501/170285888-9cf04f9a-8ba9-42a0-b768-26bd6a2529a0.png)
+
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This project is an instagrma clone with custom ui
 
 A few resources to get you started if this is your first Flutter project:
 
