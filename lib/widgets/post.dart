@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:instagram_clone/routes/postphoto.dart';
 
 class PostWidget extends StatelessWidget {
   const PostWidget({Key? key}) : super(key: key);
@@ -79,10 +80,19 @@ class PostWidget extends StatelessWidget {
                         width: width * 90 / 100,
                         child: ClipRRect(
                           borderRadius: BorderRadius.circular(20.0),
-                          child: Image.asset(
-                            "assets/images/covid.png",
-                            fit: BoxFit.cover,
-                            width: 290,
+                          child: Hero(
+                            tag: "post",
+                            child: GestureDetector(
+                              onTap: () {
+                                Navigator.of(context).push(MaterialPageRoute(
+                                    builder: (context) => MyPhoto()));
+                              },
+                              child: Image.asset(
+                                "assets/images/covid.png",
+                                fit: BoxFit.cover,
+                                width: 290,
+                              ),
+                            ),
                           ),
                         ),
                       ),
