@@ -62,6 +62,10 @@ class _HomeState extends State<Home> {
       ),
       backgroundColor: Color.fromRGBO(24, 24, 24, 1),
       bottomNavigationBar: ClipRRect(
+        //instagram : Taha.codes
+        //instagram : Taha.codes
+        //instagram : Taha.codes
+        //instagram : Taha.codes
         borderRadius: BorderRadius.circular(22.0),
         child: SizedBox(
           height: 93.0,
